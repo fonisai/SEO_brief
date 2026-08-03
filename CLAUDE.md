@@ -8,34 +8,43 @@
 | `/v1` | Ch 2 | Scaffolded site — Claude Code built it from a one-line prompt |
 | `/v2` | Ch 3a | AI blog slop — blog post written without voice files |
 | `/v3` | Ch 3b | Voice-injected — same topic, written against `references/` |
-| `/v4` | Ch 5 | Landing page — toilet repair service page in voice |
+| `/v4` | Ch 5 | Landing page — service page in voice |
 | `/v5` | Ch 6a | On-page SEO — v3 post + FAQ/Breadcrumb/Article/Person schema, TOC, author card, internal links |
 | `/v6` | Ch 6b | Technical SEO — v5 + sitemap.xml, robots.txt, OG images, Core Web Vitals |
 
 Site is **Static Site Generation** via `output: 'export'`. Every route pre-rendered to HTML at build time.
 
+**`/v1`–`/v6` are the original scaffold demo pages and still contain the sample business's content.** They are templates and worked examples, not 1 Tap Cut content — don't cite them for facts and don't copy their copy. New content ships to `/blog/<slug>` (blog posts) and `/services/<slug>` (commercial-intent landing pages).
+
 ---
 
 # Voice — read before writing any content
 
-When writing **any blog post, service page, or customer-facing copy**, read the files in `./references/`:
+The product is **1 Tap Cut**, a mobile AI video editor in closed beta. The byline on all content is **Fon Rangsanseri, Co-Founder** — a real person, so nothing about them may be invented.
+
+When writing **any blog post, landing page, or customer-facing copy**, read the files in `./references/`:
 
 | File | What it is |
 |------|-----------|
-| `references/voice.md` | Marco's writing style, sentence rhythm, vocabulary, formatting, anti-patterns |
-| `references/humour.md` | How Marco handles humour (dry, industry-aimed, never puns) |
-| `references/stats.md` | Canonical real numbers — pricing, response times, jobs, reviews |
-| `references/stories.md` | Recurring anecdotes (Windsor garage, fat-in-the-candle, tree roots) |
-| `references/opinions.md` | Hot takes on the industry, hot water systems, pricing, older homes |
+| `references/voice.md` | Fon's writing style, sentence rhythm, category vocabulary, banned words, anti-patterns |
+| `references/humour.md` | How much personality is allowed in — dry, deadpan, self-aimed, **never puns** |
+| `references/stats.md` | Canonical real numbers — pricing, limits, render times, privacy; plus the do-not-claim list |
+| `references/stories.md` | Verifiable recurring narratives (Sora wind-down, paper-edit ceiling, billing-model trap) |
+| `references/opinions.md` | Hot takes on pricing models, AI capability, the craft, and when *not* to use 1 Tap Cut |
+
+**Calibration target:** the five posts already live at `/blog` in the root project. Read `app/blog/content/can-chatgpt-edit-videos.mdx` before writing. If a draft sounds warmer, funnier, or more promotional than that post, it's wrong.
 
 **Content rules derived from these files:**
 
-- Never use: "unlock", "leverage", "seamless", "world-class", "in today's fast-paced world", exclamation marks, emojis
+- Never use: "unlock", "leverage", "seamless", "world-class", "comprehensive", "game-changer", "in today's fast-paced world", "say goodbye to", exclamation marks, emojis
 - Start with the answer; add context after
-- Use real numbers from `stats.md`, never round
-- One story per post max (from `stories.md`, don't invent new ones)
-- One strong opinion per post max (from `opinions.md`, backed by a number)
-- Tell people when NOT to hire us — biggest voice tell
+- Use real numbers from `stats.md`, never round; attach every limit to the plan it belongs to
+- **Competitor pricing is perishable** — verify it today, link it, stamp the check date, or leave it out
+- One narrative per post max (from `stories.md`, don't invent new ones)
+- One strong opinion per post max (from `opinions.md`, backed by a number or a mechanism)
+- **Name the competitor that wins** a use case, in the body, without hedging
+- **Tell people when NOT to use 1 Tap Cut** — biggest voice tell
+- Never claim user counts, ratings, growth, or results — see `stats.md` → "Do not claim". The homepage testimonials are placeholder copy and must never be cited.
 
 Before shipping any writing, re-read `references/voice.md` → "Tells that it's AI-written" and delete anything that matches.
 
@@ -128,25 +137,30 @@ app/
   v1/page.tsx            scaffolded homepage
   v2/page.tsx            AI-slop blog post
   v3/page.tsx            voiced blog post (same URL pattern as v2)
-  v4/page.tsx            toilet repair landing page
-  v5/page.tsx            voiced post + on-page SEO
+  v4/page.tsx            service landing page — LEGACY sample content, template only
+  v5/page.tsx            voiced post + on-page SEO — the template /blog copies
   v6/page.tsx            voiced post + technical SEO scorecard
+  blog/<slug>/page.tsx   generated blog posts (1 Tap Cut)
+  services/<slug>/       generated landing pages (1 Tap Cut)
 components/
   site/                  Header, Footer, Logo, VersionSwitcher
   home/                  Hero, FeatureGrid, HowItWorks, Testimonials, ServiceAreas, FinalCta
   blog/                  BlogBody, VersionBanner, Breadcrumbs, TableOfContents, AuthorCard
   seo/                   LocalBusinessJsonLd, BlogJsonLd, TechSeoScorecard
 content/
-  blog-ai-slop.ts        v2 post content
-  blog-voiced.ts         v3/v5/v6 post content (with faqs[] + author object)
-  toilet-repair.ts       v4 service content
+  blog-ai-slop.ts        v2 post content — LEGACY sample
+  blog-voiced.ts         v3/v5/v6 post content — LEGACY sample; copy the SHAPE, not the copy
+  toilet-repair.ts       v4 service content — LEGACY sample
 lib/
-  business.ts            single source of truth for the business
+  business.ts            LEGACY sample business data — not 1 Tap Cut. See references/stats.md.
   markdown.ts            minimal md renderer
   seo.ts
-references/              voice, humour, stats, stories, opinions (read before writing)
-on-page-seo.md           checklist v5/v6 must satisfy
+references/              voice, humour, stats, stories, opinions, used-keywords (read before writing)
+VDOediting-keyword.csv   active keyword export (69 rows, seed "video editing")
+on-page-seo.md           checklist v5/v6 and all generated pages must satisfy
 ```
+
+**Legacy files:** anything marked LEGACY above predates the 1 Tap Cut conversion and describes a different business. Copy structure from them; never copy facts, names, prices, or copy.
 
 **Organisation rules:**
 - One component per file

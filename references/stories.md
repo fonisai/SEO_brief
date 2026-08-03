@@ -1,63 +1,91 @@
-# Stories & Anecdotes
+# Stories & Recurring Narratives
 
-> Recurring stories from Marco's career. Draw from these when a blog post needs an anecdote.
-> Don't make up new ones — use these, adapt them to fit the context.
+> The reusable narratives our posts are built on. Draw from these when a post needs something more than a fact list.
+> **Every one of these is verifiable.** That's the point — the byline is a real person, so the stories have to be real too.
+> Don't invent new ones. If none of these fits the topic, write the post without one.
 
-## Origin story — the Windsor garage
+---
 
-Marco qualified as a plumber in 2004. Worked for a big franchise operator for five years. In 2009, left and started Plumbing Co out of a borrowed garage in Windsor with one van and the 04 phone number he still uses today.
+## 1. The Sora wind-down
 
-**The reason he left the franchise:** the training wasn't "how to fix a tap" — it was "how to upsell a tap to $1,400." Scripts. Pricing psychology. Phantom add-ons on the invoice. He walked after five years.
+Until spring 2026 the honest answer to "can ChatGPT make videos" was yes — Sora lived inside the ChatGPT surface. OpenAI then wound it down in stages:
 
-**Use this story when:** writing about trust, pricing transparency, why the business is flat-fee, or the difference between owner-operators and franchise plumbers.
+| Date | What happened |
+|---|---|
+| 24 March 2026 | Wind-down announced, API developers notified |
+| 26 April 2026 | Sora web and app experiences discontinued |
+| 24 September 2026 | `sora-2`, `sora-2-pro` and the Videos API shut down |
 
-## The fat-in-the-candle story
+OpenAI's deprecation notice named **no replacement model**. Reporting at the time attributed it to economics — video generation costs far more per output than text, and compute moved to coding and enterprise products.
 
-Nine out of ten blocked kitchen sinks in Prahran are the same thing: fat. Cooking oil, bacon grease, the bit of butter left in the pan. Goes down warm, hits the cold drain pipe about a metre in, and **sets like a candle**. Over a couple of months it narrows the pipe until a stray piece of rice finally seals it off.
+**Use this when:** writing about what AI can and can't do with video, about ChatGPT workflows, or about any "AI video generator" keyword. It's also the cleanest example of why unsourced, undated content in this category goes wrong — most pages ranking for these terms are still describing a product that no longer exists.
 
-**Use this story when:** writing about blocked kitchen sinks, why kettles of boiling water work, or why the blockage "keeps coming back".
+**Already used in:** `/blog/can-chatgpt-edit-videos`. Re-use the dates freely; don't re-tell the whole thing in a post where it isn't the subject.
 
-## The tree roots in clay pipes
+---
 
-Houses in the inner south (Prahran, South Yarra, Windsor) were mostly built 1890–1960. Clay pipes from the era. Tree roots find the joints and sit there for decades, letting water through at first, then narrowing, then blocking.
+## 2. The paper-edit ceiling
 
-**The fix:** CCTV the line, see where the roots are, cut them with the jet-rodder. If it's the same spot that blocks three times in a year, replace that section. One-off fix, not a recurring problem.
+Hand a language model a **timestamped** transcript and it will do genuinely useful work: pick the segments worth keeping, order them into something coherent, and explain why each earns its place. It's the single best use of an LLM on long footage.
 
-**Use this story when:** writing about recurring blockages, CCTV drain camera work, or older-house plumbing.
+Then it stops. It has no timeline, no access to your media, no timecode, and no render pipeline. It produces a **plan**. Something else has to perform it.
 
-## The 90-minute Sunday burst pipe
+The ceiling is the whole story: the model is good at the language half of editing and structurally incapable of the other half.
 
-Sunday, late 2023. Customer (Sarah K. in Prahran) called about a burst pipe. Water everywhere. Marco was onsite in 40 minutes, had the water back on in 90 minutes total, and charged exactly what he quoted on the phone.
+**Use this when:** writing about AI editing workflows, transcript-driven editing, Descript, or any "can [AI tool] edit video" keyword.
 
-**Use this story when:** writing about emergency response, weekend availability, or the "no price surprise" promise. Don't use the customer's name without context — say "a customer in Prahran" or "a Sunday callout last year".
+---
 
-## The $1,800 hot water quote
+## 3. Footage with no transcript
 
-Another customer (Dominic R., St Kilda) got quoted $1,800 by another plumber for a like-for-like electric hot water replacement. Marco did it for $1,950 — but it was a **heat pump upgrade, including the VEU rebate handled**. Paid less, got a better unit, ~$650/year less in power bills.
+Twenty clips from a weekend. No dialogue. Half of them shaky. This is what most people actually shoot, and every transcript-based AI workflow has **no input at all** for it.
 
-**Use this story when:** writing about hot water system costs, the VEU rebate, or why the cheapest quote isn't the cheapest outcome.
+Nothing in the paper-edit route addresses the real work here: finding the usable seconds inside each clip, cutting the dead air, matching pace to music, exporting vertical.
 
-## The aerator job
+There's a second half to it — the admin tax. On a 40-minute interview, the export-transcript-paste-read-translate-timecodes loop is worth paying. On a 45-second clip, it's several minutes of overhead around an edit you could have done by hand in two.
 
-Marco was once called to a job where the customer said their kitchen tap had "no pressure at all." He unscrewed the aerator, rinsed it under the other tap, and the pressure was back in 90 seconds. Had to charge $149 because that's the call-out fee.
+**Use this when:** writing about mobile editing, travel vlogs, phone footage, or why long-form AI workflows don't transfer to short-form.
 
-**Use this story when:** writing about low water pressure, DIY fixes, or why the business tells you to try things yourself first.
+---
 
-## The "other guy charged me $900 for a washer"
+## 4. The billing-model trap
 
-A recurring line Marco hears. Every time a new customer comes in because their tap is dripping, they tell him a variant of "the last plumber charged $900 to change a washer." It's why Plumbing Co prices are flat, written, and approved before any work starts.
+Per-minute-of-source pricing sounds fair and behaves badly. A 60-minute upload costs 60 credits **regardless of how many clips come out of it** — so the exact footage you most want automated help with is the footage that costs the most to process. Uploading an hour to find three good clips means paying for 57 minutes you threw away.
 
-**Use this story when:** writing about pricing transparency, why the business is flat-fee, or introducing the "no bill-shock" promise.
+The point isn't that any one tool is bad. It's that **the billing model, not the feature list, decides which tool you're still using in six months** — and it's the thing nobody compares before signing up.
 
-## The galvanised pipe story (houses pre-1980)
+**Use this when:** writing about pricing, comparisons, "cheapest AI video editor", or long-to-short workflows.
 
-Pre-1980 Melbourne houses — most of the inner-south single-storey Victorians and inter-war California bungalows — have galvanised steel water mains from meter to house. They corrode from the inside. By 2026, many of them are more rust than steel. Water pressure drops, eventually flow collapses.
+**Verified:** July 2026, in `/blog/opusclip-vs-submagic-vs-descript-comparison`. Re-check the numbers before reusing them — see `stats.md` → Perishable numbers.
 
-**Use this story when:** writing about low water pressure in older homes, whole-house plumbing replacements, or pre-purchase plumbing inspections.
+---
+
+## 5. The watermark tax
+
+Every free tier in this category applies a watermark. Every paid plan removes it. That, not the export cap, is the actual paywall — a watermarked clip is not postable, so a free plan with three exports and a watermark has an effective limit of zero.
+
+Worth saying plainly because we do it too. Starter is $0 with 3 exports a month, 1080p, **and a 1 Tap Cut watermark**. Same trade as everyone else's.
+
+**Use this when:** writing about free tools, "no watermark" keywords (`free video editing software no watermark`, vol 1,900 in the CSV), or pricing generally.
+
+---
+
+## 6. Fon's own footage
+
+<!-- TODO(Fon): this slot is for one or two real anecdotes from you. Nobody else should fill it in.
+     What would make it usable:
+       - A specific edit that took absurdly long. What was it, how long, what were you cutting in?
+       - The moment you decided to build this instead of continuing to edit by hand.
+       - A time a tool — ours or someone else's — got something wrong in a way that taught you something.
+     Each needs one concrete detail: a duration, a place, a piece of gear, a number.
+     Until this is filled in, posts run with narratives 1–5 or with none. -->
+
+---
 
 ## How to use these
 
-- **Don't recite them verbatim.** Adapt the bones — Marco, the timeframe, the specific detail (fat-as-candle, 90-minute response, $1,800 quote) — to fit the post.
-- **Use at most one story per blog post.** More than that feels like stuffing.
-- **Always include one specific concrete detail** — a street, a time, a price, a customer's situation — to make it feel real.
-- **Never invent a new story.** If none of the above fits the topic, write the post without one rather than making something up.
+- **One narrative per post, maximum.** More than one reads as padding.
+- **Don't recite them.** Take the bones — the dates, the mechanism, the specific number — and fit them to the post.
+- **Always carry one concrete detail** — a date, a duration, a price, a file limit. The detail is what makes it read as real, because it is.
+- **Re-verify anything perishable** before reusing it. Narratives 4 and 5 rest on competitor pricing; see `stats.md`.
+- **Never invent a new one.** No composite creators, no "a user told me", no hypothetical framed as history. A post with no story is fine. A post with a fabricated one undoes the byline.

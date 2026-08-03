@@ -1,50 +1,56 @@
 # Opinions & Hot Takes
 
-> Marco has strong, specific opinions about plumbing. Use these where relevant.
-> These are the things that separate a real tradie's voice from generic AI content.
+> Fon has specific opinions about this category. Use them where they're relevant.
+> These are what separate a real operator's writing from a generic AI listicle — but only if each one carries a number or a mechanism. An opinion without evidence is a bumper sticker.
 
-## On the industry
+---
 
-- **Franchise plumbing operators train upselling, not plumbing.** Marco left one after five years because the internal training was literally scripts for turning $200 jobs into $1,400 jobs. It's why Plumbing Co is owner-operated, flat-fee, and won't go national.
-- **"Free quote" plumbers who aren't actually free.** If someone quotes you $5,600 for a heat pump and says "you can claim the rebate later" — they're pocketing it. The rebate gets taken off the quote, full stop.
-- **24/7 "emergency" plumbers with call centres** are usually subbing work out to whichever plumber is cheapest that night. You don't know who's coming. Avoid.
-- **The cheapest quote is rarely the cheapest outcome.** Customer got quoted $1,800 for a like-for-like electric HWS replacement. Marco did a heat pump upgrade for $1,950 after rebate — customer paid $150 more and saves $650/year in power. Same principle applies across the board.
+## On pricing and billing models
 
-## On what customers should actually do
+- **Per-minute-of-source billing is the wrong model for creators.** A 60-minute upload costs 60 credits no matter how many clips it produces, so the footage that most needs automating is the footage that costs most to process. The billing model, not the feature list, decides which tool you're still paying for in six months.
+- **The watermark is the real paywall on every free tier, ours included.** Three free exports with a watermark is an effective limit of zero, because a watermarked clip isn't postable. Say this about our own Starter plan, not just other people's.
+- **Annual-only headline pricing is a dark pattern.** When a tool advertises $12/mo and the $12 requires twelve months upfront, quote both numbers. Readers comparing tools are comparing annual rates and half the category knows it.
+- **Compare total cost for a real month of work, not sticker price.** "Cheapest" depends entirely on how much source footage you push through, which is exactly what per-minute pricing hides.
 
-- **Try the kettle first.** Seriously. For a blocked kitchen sink, boiling water + dish soap clears about half the jobs we'd otherwise get called to. Save yourself the call-out.
-- **Unscrew the aerator before calling anyone for low pressure.** Nine times out of ten, it's just gunk in the tap's mesh screen. Literally 30 seconds.
-- **Shut off the mains before panicking.** Blue tap at the front of the property, usually near the water meter. If you don't know where yours is, find it *now*, not during a burst.
-- **Don't DIY gas anything.** Changing a washer, fine. Touching a gas hot water unit, no. It's illegal, it's dangerous, and you'll void your insurance if something goes wrong.
+## On AI and what it actually does
 
-## On hot water systems
+- **ChatGPT is a planning tool for video, not an editor.** It has no timeline, no access to your media, no timecode and no render pipeline. It's excellent at paper edits from a timestamped transcript, and structurally incapable of executing one.
+- **Since April 2026 it doesn't generate video either.** OpenAI discontinued the Sora apps on 26 April 2026 and the API shuts down 24 September 2026, with no replacement named. Most pages ranking for these keywords still describe a product that doesn't exist — which is what an unsourced, undated post becomes.
+- **Transcript-driven editing is the best AI workflow in the category, and it covers maybe a third of what people shoot.** No dialogue means no transcript means no input. Every article recommending it to vloggers has skipped that step.
+- **"AI video editor" is four different products wearing one label** — clip-finders, caption generators, transcript editors, and generators. Compare within a category or the comparison is meaningless.
 
-- **Electric storage hot water is a bad financial decision if you'll be in the house more than 3 years.** Costs ~$800/year to run vs ~$150/year for a heat pump. The heat pump costs more upfront, but the payback is ~4 years.
-- **If your hot water unit is over 10 years old and the repair is more than $400, replace it.** Rule of thumb, works 95% of the time. Newer systems are 30% more efficient.
-- **Heat pumps are the clear winner for most Melbourne homes in 2026.** VEU rebate + power savings + longer warranty = best total cost of ownership. Marco doesn't install electric storage as a first-choice anymore unless budget is the overriding factor.
-- **Don't install a heat pump outside if it's north-facing and gets no shade.** They work harder in direct summer sun. Prefer east or south. (Yes, it matters.)
+## On the craft
 
-## On pricing
+- **Silence removal is the highest-return automation in short-form**, and the least glamorous. Cutting dead air and filler words changes pacing, and pacing is what the feed rewards. It's the feature I'd actually miss.
+- **Template-first editors make everyone's video look identical.** Templates are why CapCut is the default and also why a scroll through any feed shows the same six transitions. Worth naming when a post recommends one.
+- **Pace beats polish on a phone screen.** Colour grading a vertical clip that gets 1.4 seconds of attention is time spent in the wrong place.
+- **Shoot more than you think, cut harder than feels comfortable.** The bottleneck is never footage, it's the willingness to throw it away — which is the actual argument for automating the first pass.
 
-- **Call-out fees should be credited against the job, or waived entirely.** Anyone charging a call-out *on top of* the work is making money for showing up.
-- **Any price should be in writing before work starts.** Verbal quotes that become "$900 for a washer" is how the industry gets its reputation.
-- **"Starting at" pricing is a red flag.** Marco's entire pricing model is flat, all-in. Either you know what it costs before they start, or you don't.
+## On privacy and processing
 
-## On older Melbourne houses
+- **On-device beats cloud for short clips on both counts.** Renders land in under 30 seconds and the footage never leaves the phone. That's a real distinction and most of the category can't make it — OpusClip and Submagic are browser tools, Descript is desktop.
+- **State the limits of your own privacy claim.** Ours: short clips stay on-device, longer projects go to the cloud encrypted and are deleted within 24 hours, and we never train on user video. "Nothing ever leaves your phone" would be false, so don't write it.
+- **Ask any tool what happens to your footage after processing.** Most pricing pages don't say, and that silence is the answer.
 
-- **If your house was built before 1980, assume the water main is galvanised.** It will fail within the next 10 years. Not a panic, just plan for it.
-- **Clay pipes + tree roots are *the* inner-south plumbing story.** If your drain keeps blocking, don't keep plunging. Camera it, find the roots, fix it once.
-- **Pressure reducing valves die at 10–15 years.** If your whole-house pressure suddenly drops and nothing obvious explains it, check the PRV.
+## On when not to use 1 Tap Cut
 
-## On what a plumber should never do
+**This is the single biggest voice tell in the whole reference set.** Every post that could plausibly recommend us needs one honest line about who shouldn't bother. It costs a click and buys the reader's trust for the rest of the page.
 
-- **Leave a mess.** We clean up. Sounds obvious. Apparently isn't.
-- **Start work before the customer approves the price.** If we get there and it's more complex than the phone call suggested, we stop, quote the new number, and wait for yes.
-- **Badmouth the previous plumber to your face.** Even if they did a terrible job. Not our style.
-- **Recommend replacement when repair will do.** And vice versa — we'll tell you honestly when repair is throwing money at a dying unit.
+Don't use 1 Tap Cut for:
+
+- **Multicam or long-form interviews.** No timeline, no multicam. Use Premiere Pro or DaVinci Resolve.
+- **Colour grading.** Not what it's for. Resolve's free tier is genuinely capable and costs nothing.
+- **Editing a podcast or a 40-minute talking head.** Descript, and edit the transcript.
+- **Anything where you want frame-level control.** If you know what you want on the timeline, a timeline is faster than describing it.
+- **Client work with revision rounds.** You need project files and a real editor.
+- **Right now, if you're not in the beta.** It's closed. Say so rather than implying availability.
+
+The matching rule from `voice.md`: name the tool that wins, in the body, without hedging.
 
 ## How to use opinions in content
 
-- **One strong opinion per blog post, max.** Deploy it where it makes the post feel human instead of generic.
-- **Always back an opinion with a number or a story.** "Heat pumps are better" is a bumper sticker. "Electric costs $800/year, heat pump costs $150, 4-year payback" is an opinion.
-- **Tell people when NOT to hire us.** This is the single biggest voice tell. Marco will happily talk someone out of a $149 call-out if a $0 kettle will fix it. Generic AI content will never do that.
+- **One strong opinion per post, maximum.** Put it where the post would otherwise read as generic.
+- **Always back it with a number or a mechanism.** "Per-minute billing is bad" is a slogan. "A 60-minute upload costs 60 credits regardless of clips produced" is an opinion worth reading.
+- **Re-verify anything resting on competitor pricing** before it ships — see `stats.md` → Perishable numbers.
+- **Never turn an opinion into an attack on a company.** Criticise a pricing model, a default, or a category habit. Not a team.
+- **Tell people when not to use us.** Generic content in this category will never do it, which is exactly why it works.

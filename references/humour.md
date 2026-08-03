@@ -1,123 +1,142 @@
 # Humour
 
-> Plumbing is boring. Your job is to make it fun. Every blog post is funny — this isn't optional.
-> Read this file **before** writing a single sentence.
+> Every post carries some personality. The register is **dry, deadpan, and aimed at ourselves** — never puns, never jokes.
+> Read this file **before** writing a single sentence, and read it as a set of limits as much as a licence.
 
 ---
 
 ## The north-star
 
-Marco is 52. Italian-Australian. Prahran plumber since 2009. Makes his apprentice groan at least three times per job. His wife rolls her eyes so hard she can see her own brain. His 17-year-old calls his Spotify playlist — Dire Straits, ABBA, Nickelback greatest hits — "medical-grade cringe."
+The reader is a creator who has spent a Sunday night scrubbing a timeline for a twelve-second clip. They came here for an answer, not a bit. The humour's job is to signal that a human wrote this and has done the same work — nothing more.
 
-This is the voice. **Embrace the dad energy. Own it.**
-
----
-
-## The opening rule
-
-If the first 50 words don't land at least one dad joke, a self-aware wink, or a parenthetical aside, rewrite them. We are not a brochure. We are a guy at the pub who's had one beer and now he's explaining how your toilet works.
+One flat, well-placed line beats five attempts at being funny. If a post has no room for one, ship it without one.
 
 ---
 
-## Five rules for humour in every post
+## The register
 
-### 1. Dad jokes are **mandatory**, not optional.
+Dry. Deadpan. Understated to the point that a fast reader might miss it. The joke is never announced, never explained, and never has a `!` after it.
 
-Every post needs at least one pun on the topic. Running toilet? "Been on a running streak for six hours." Blocked drain? "A situation that can really back up on you." Low water pressure? "We need to have a pressurised conversation."
+The ceiling is already in the shipped writing. From the live ChatGPT post:
 
-Don't apologise. Don't lampshade. Don't wink *too* hard. Lay the pun down, walk away from it, and get back to helping. The reader will either groan and keep reading (ideal) or groan and leave (that's their loss — we didn't want their business anyway, reader-who-doesn't-appreciate-art).
+> **What happens when you give ChatGPT a video file**
+>
+> Nothing, mostly.
 
-### 2. Punch at yourself. Never at the reader.
+and
 
-Self-deprecation is free real estate:
+> So in August 2026, ChatGPT neither edits video nor creates it. If you last checked six months ago, check again.
 
-- "I've been doing this 22 years and I still call the flapper 'the flappy bit' half the time."
-- "My apprentice Jake told me that's not the technical term. I informed him it was, as of this morning."
-- "My wife calls my puns 'almost illegal'. I think she means 'exceptional'."
+That is exactly the temperature. Both lines are load-bearing — they answer the question — and both are a little funny because of how flatly they land. Neither is a joke you could extract and tell.
 
-The reader is never the butt of a joke. Ever. They called because their ceiling is leaking, not because they want a roast.
+---
 
-### 3. Parenthetical asides are your best friend.
+## Four rules
 
-Stage directions. Mid-sentence dips. Little winks that remind the reader a human wrote this:
+### 1. It comes from precision, not from wordplay.
 
-- "(Yes, I know how that sounds. No, I won't stop.)"
-- "[Takes a deep breath for dramatic effect.]"
-- "(The fact that you're still reading suggests you're either a glutton for punishment or you've got a very slow toilet.)"
+The humour in this voice is the gap between how big the reader expects the answer to be and how small it actually is. Two words where they expected a paragraph. A flat statement of something absurd, with no comment attached.
 
-These are free. Use them liberally.
+Good:
 
-### 4. Pop-culture references that age well.
+- "Nothing, mostly."
+- "Forty minutes, for twelve seconds of footage. I've checked. Twice."
+- "The transcript workflow works beautifully, right up until there's no transcript."
 
-Don't date your posts with TikTok trends that'll be dead in a week. Reference **Seinfeld, The Office, Jaws, Shawshank, Die Hard, dad-rock, ABBA, classic Simpsons**. A 35-year-old homeowner (our reader) gets those. Their teenage kid won't — which is *also* funny, because now you're writing like their dad.
+Bad — every one of these is a pun, which is banned:
 
-Safe landings:
-- "This is the 'we need a bigger boat' moment of plumbing."
-- "If Shawshank taught us anything, it's that pipes are structurally significant."
-- "The flapper has more flap than a George Costanza handshake."
+- "This is where the plot thickens — and so does the render queue."
+- "A cut above the rest."
+- "Let's edit down to the point."
 
-### 5. The sign-off has to land.
+### 2. Punch at the work, the category, or yourself. Never the reader.
 
-The last sentence of a post should make the reader smile. Not:
+Fair targets:
 
-> "We're here to help 24/7!"
+- **The editing grind.** The 3am export. The take you kept because re-shooting meant setting the tripod up again. The forty minutes on twelve seconds.
+- **The category's marketing language.** "Every AI video tool launched in 2026 promised to 10x your content. Mine cuts silence out of a talking head. Do with that what you like."
+- **Fon.** Being wrong about a workflow, over-shooting b-roll, having opinions about pacing that nobody asked for.
 
-But:
+Never fair:
 
-> "If you've tried everything and it's still running, call us before your water bill needs its own postcode."
+- The reader's footage, their skill, their niche, or their platform. They are not the joke. They came here because something was hard.
+- A named competitor. State facts about tools; the sarcasm goes to the category, not to a company.
 
-Or:
+### 3. Asides earn their place, or they get cut.
 
-> "We'll come fix it. We'll also, probably, tell you a terrible joke. Consider that a bonus, not a warning."
+A parenthetical or a short aside is the main delivery mechanism. One per section at most.
+
+- "(I have tried this on the same clip four times. The fourth was not better.)"
+- "It's a real workflow. It's also several minutes of admin around an edit you could have done by hand in two."
+
+If an aside doesn't add information as well as tone, delete it. Tone-only asides are what make a post read as padded.
+
+### 4. The sign-off states something true.
+
+The last line should be worth reading, not cheerful. Not:
+
+> Ready to transform your workflow? Try 1 Tap Cut today.
+
+Closer to:
+
+> If your footage has dialogue and you've got an hour, the transcript route is still the best one going. If it's twenty clips from a weekend and no one says a word, it was never going to help.
+
+Understated, useful, and it lands. That's the target.
+
+---
+
+## Frequency
+
+**One moment per ~500 words.** Lower than you think. A 1,500-word post should land **two or three**, total.
+
+**Zero is correct** in:
+
+- Pricing tables and anything within two sentences of a price
+- Comparison verdicts
+- Any paragraph carrying a number, a date, or a claim about a competitor
+- Privacy and data-handling sections
+- FAQ answers — these get harvested into schema and read out of context. Keep them flat.
+
+A post can ship with no humour at all if the topic is a straight pricing comparison. Three of the five live posts are close to that already.
 
 ---
 
 ## Anti-patterns — never do these
 
-- **Exclamation marks.** Dad jokes work *better* deadpan. The joke is the punctuation. If you need a `!`, the joke's not finished.
-- **Emojis.** You're not fifteen.
-- **Laughing at the customer.** Punch at yourself, at the industry, at physics. Never at the person whose ceiling's caving in.
-- **Outdated meme references.** "Much wow", "yeet", "slay". Skip "yeet" from *this* year too.
-- **Forced quirk.** If a joke isn't funny, it's just weird. Cut it.
-- **Trying to be edgy.** Marco isn't edgy. He owns a Dire Straits CD. Embrace it.
-- **Same joke twice.** If you made a flapper pun in paragraph 2, pick a different muscle for paragraph 8. Don't keep pulling on the same thread — it breaks.
-- **Meta jokes about the post itself.** "As I write this" is fine once. Twice and it's tedious.
-
----
-
-## Frequency — how much is too much?
-
-**Every 300–500 words, one moment.** One dad joke, one self-aware aside, or one pop-culture drop. Not every paragraph — that's exhausting. But frequent enough that the reader's face moves at least every minute or so.
-
-A 1,500-word post should land roughly:
-
-- **3–5** dad jokes or puns
-- **2–3** self-referential asides
-- **1–2** parenthetical dips
-- **1** sign-off that makes the reader smile
+- **Puns and wordplay.** The single hardest rule. Not one, anywhere, including in headings.
+- **Exclamation marks.** The line either works flat or it doesn't work.
+- **Emojis.** In anything, ever.
+- **Meme and trend references.** They date the post within a quarter and this category moves fast enough already.
+- **"As an AI" or any meta joke about the writing.** Also: no "as I write this" more than once per post, and preferably zero.
+- **Laughing at the reader.** Not their gear, not their edit, not their follower count.
+- **Forced quirk.** If a line isn't funny, it isn't quirky either. It's just a sentence that wasted the reader's time. Cut it.
+- **The same move twice.** One flat two-word answer per post. A second one reads as a tic.
+- **Humour in a sentence that carries a fact.** Split them. The fact stays clean, the aside goes after it.
 
 ---
 
 ## The vibe check
 
-Before you ship, read the post aloud in your head. Does it sound like:
+Before shipping, read it back. Does it sound like:
 
-✓ A plumber who's been alive for 52 years, writing to the neighbour whose ceiling just caved in
+✓ A creator who has done this a thousand times, explaining it to someone one project behind them
+
 ✗ A brochure
-✗ A LinkedIn motivational post
-✗ A stand-up routine
+✗ A LinkedIn post
+✗ A stand-up set
+✗ A vendor blog
 ✗ An AI trying to be funny
 
-If it leans brochure, sprinkle more in. If it leans stand-up, dial it back. Target: **"mate at the pub explaining how toilets work, exactly one beer in."**
+If it leans brochure, the fix is usually a concrete number, not a joke. If it leans stand-up, cut every aside and add back the best one.
 
 ---
 
-## Example openings — copy the energy, not the jokes
+## Example openings — copy the temperature, not the lines
 
-> My toilet has been running so long I'm thinking of signing it up for a marathon. Or worse — a gym membership.
+> Nothing, mostly.
 
-> Low water pressure: the plumbing equivalent of a handshake from someone who clearly doesn't want to be there.
+> Short answer: it depends entirely on what you shot. Long answer is the rest of this page, but if you only came for the short one, that's the honest version.
 
-> A blocked drain is nature's way of telling you that last night's pasta had ambitions.
+> Silence removal is the least glamorous feature in any AI video editor and the only one I'd genuinely miss.
 
-Each one: topic stated, pun delivered, move on. That's the pattern.
+Each one: answers the question, sounds like a person, moves on immediately. No line is doing comedy as its main job.
